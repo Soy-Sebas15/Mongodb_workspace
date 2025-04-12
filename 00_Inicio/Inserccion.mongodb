@@ -1,7 +1,7 @@
 //vamos a crear nuestra base de datos
 use("sales_clothes")
 //crear una coleccion
-/*db.prenda.insertOne
+db.prenda.insertOne
 (
     {
      nombre:"Camisa",
@@ -11,6 +11,7 @@ use("sales_clothes")
      stock:50   
     
     }
-)*/
+)
 //listar documento
 db.prenda.find()
+db.prenda.find().count()
